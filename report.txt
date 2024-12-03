@@ -1,0 +1,8 @@
+Explanation of Model Results
+The classification_report provides several metrics to evaluate the performance of a classification model:
+
+Precision: The ratio of correctly predicted positive observations to the total predicted positives. A precision of 0.00 means that none of the predicted positive instances were actually positive.
+
+Recall: The ratio of correctly predicted positive observations to all observations in the actual class. A recall of 0.00 means that the model failed to identify any positive instances.
+
+A precision and recall of 0.00 indicate that the model is not performing well for the positive class, meaning it is either not predicting any positives or all its positive predictions are incorrect.
